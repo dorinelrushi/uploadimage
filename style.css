@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(202, 202, 202);
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+input{
+  display: none;
+}
+label{
+  background-color: rgb(4, 155, 155);
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+#out{
+  width: 250px;
+}
